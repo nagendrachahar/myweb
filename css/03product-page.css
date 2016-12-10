@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+header{ 
+    z-index: 1;
+	width: 1200px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	font-family:  Arial,Tahoma,Verdana,sans-serif;
+	background-color: #157ed2;
+}
+.top-header{
+    width: 600px;
+	padding: 7px 0 0 0;
+	margin:0 0 0 480px;
+}
+ .top-header li{
+ 	display: inline-block;
+ }
+ .top-header li a{
+ 	font-size: 10px;
+ 	text-decoration: none;
+
+ }
+ .top-header li{
+    border-right: 1px solid white;
+    padding:0 10px 0 10px;
+
+ }
+ .top-header li a:link{
+ 	color:white;
+ }
+ .top-header li a:visited{
+    color:white;
+}
+ .middle-header{
+    width: 880px;
+    padding-bottom: 5px;
+ 	margin:auto;
+ }
+ .middle-header .logo{
+    width: 150px;
+    height: 40px;
+ 	display: inline-block;
+    background: url(../images/flipkart_logo_retina-9fddfff2.png) no-repeat;
+    background-size: 150px 40px;
+    text-indent: -9999px;
+ }
+ .middle-header form{
+ 	display: inline-block;
+ }
+
+ .middle-header .search{
+    background: url("../images/index.png")
+     left no-repeat;
+    background-size: 20px 20px;
+    background-color: white;
+    border: none;
+    float: left;
+    margin-top: 1px;
+ 	padding-left: 50px;
+ 	width: 600px;
+ 	height:34px;
+ }
+ .search-icon{
+ 	position: absolute;
+ 	top:25px;
+ 	left:170px;
+ }
+ .search-button{
+    float: left;
+ 	border: 1px solid;
+ 	display: inline-block;
+ 	border-color: #e0bc27;
+ 	background-color: #fdd922;
+ 	padding: 9px 30px 10px 30px;
+ }
+ .bottom-header{
+    width: 100%;
+    /* background-color: rgba(0,255,255,0.9);*/
+    background-color: #0f6cb2;
+ }
+ .bottom-header ul{
+    width: 900px;
+    margin:auto;
+    padding: 10px 0 10px 0;
+ }
+ .bottom-header ul li{
+    display: inline-block;
+ }
+ .bottom-header ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    padding-left: 25px;
+ }
+ .offer-zone{
+    color: orange;
+ }
+.nav {
+width: 200px;
+	float:left;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow: 0,0,10px gray;
+	margin: 40px
+}
+.filterby {
+	border-bottom: 1px solid gray;
+	background-color: rgba(0,0,0,0.1);
+	text-transform: uppercase;
+	padding: 10px;
+	color:rgba(0,0,0,0.5);font-size: 17px;font-weight: bold;
+}
+.gender {
+	text-transform: uppercase;
+	padding:10px;
+	color:rgba(0,0,0,0.7);
+	font-size: 15px;
+}
+.gender-content p {
+	padding:5px 0 15px 25px;
+	color:rgba(0,0,0,0.5);
+	font-size: 12px;
+}
+.category {
+	text-transform: uppercase;
+	padding:10px;
+	color:rgba(0,0,0,0.7);
+	font-size: 15px;
+	border-top: 1px solid gray;
+}
+.category-content p{
+	padding:5px 0 15px 25px;
+	color:rgba(0,0,0,0.5);
+	font-size: 12px;
+}
+.category-content {
+	border-bottom: 1px solid gray;
+}
+a {
+	text-decoration: none;
+}
+.nav p:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+.offers {
+	text-transform: uppercase;
+	padding:10px 0 10px 0;
+	color:rgba(0,0,0,0.7);
+	font-size: 15px;
+	margin: 0 15px 0 15px;
+	border-bottom: 1px solid gray;
+}
+.offers-content p {
+	padding:5px 0 15px 25px;
+	color:rgba(0,0,0,0.5);
+	font-size: 12px;
+}
+.section {
+	padding: 30px;
+	margin-top: 100px;
+}
+.section-div1,.section-div2 {
+	display:inline-block;
+}
+.section-div1 p {
+	color:rgba(0,0,0,0.6);
+	font-size: 17px;
+}
+.section-div2 {
+	z-index: 0;
+	background-color: #0f6cb2;;
+	border: 1px solid #e0bc27;
+	margin: 0 0 0 250px;
+	padding:10px 40px;
+	position: relative;
+}
+.section-div2 p {
+	color:0,0,0,0.6; 
+	color:#fdd922;
+	font-size: 15px;
+}
+.section-div2-div {
+	position: absolute;
+	top: 55px;
+	right: 0;
+	visibility: hidden;
+	border:1px solid #e0bc27;
+	background-color: #157ed2;
+}
+.section-div2-div p{
+	padding: 5px;
+	cursor: pointer;
+}
+.section-div2-div p{
+	border-bottom: 1px solid #e0bc27;
+}
+.section-div2-div p:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+.section-div2:hover .section-div2-div {
+	visibility: visible;
+}
+.product {
+	float:left;
+	width:250px;
+	height: 375px;
+	margin: 20px;
+}
+.product:hover {
+	box-shadow: 0 0 10px gray;
+}
+.product p{
+	font-size: 13px;
+	padding: 0 15px 0 15px;
+}
+.product p del {
+	color: rgba(0,0,0,0.5);
+}

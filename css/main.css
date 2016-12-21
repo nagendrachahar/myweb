@@ -1,54 +1,54 @@
 *{
-		padding: 0;
-		margin: 0;
-	}
-	header{
-        width: 1200px;
-		font-family:  Arial,Tahoma,Verdana,sans-serif;
-		background-color: #157ed2;
-	}
-	.top-header{
-        width: 600px;
-		padding: 7px 0 0 0;
-		margin:0 0 0 480px;
-	}
-     .top-header li{
-     	display: inline-block;
-     }
-     .top-header li a{
-     	font-size: 10px;
-     	text-decoration: none;
-    
-     }
-     .top-header li{
-        border-right: 1px solid white;
-        padding:0 10px 0 10px;
+	padding: 0;
+	margin: 0;
+}
+header{
+	width: 100%;
+	font-family:  Arial,Tahoma,Verdana,sans-serif;
+	background-color: #157ed2;
+}
+.top-header{
+	width: 600px;
+	padding: 7px 0 0 0;
+	margin:0 0 0 480px;
+}
+.top-header li{
+	display: inline-block;
+}
+.top-header li a{
+	font-size: 10px;
+	text-decoration: none;
 
-     }
-     .top-header li a:link{
-     	color:white;
-     }
-     .top-header li a:visited{
+}
+.top-header li{
+	border-right: 1px solid white;
+	padding:0 10px 0 10px;
+
+}
+.top-header li a:link{
+	color:white;
+}
+.top-header li a:visited{
         color:white;
-    }
-     .middle-header{
-        width: 880px;
-        padding-bottom: 5px;
-     	margin:auto;
-     }
-     .middle-header .logo{
+}
+.middle-header{
+	width: 880px;
+	padding-bottom: 5px;
+	margin:auto;
+}
+.middle-header .logo{
         width: 150px;
         height: 40px;
      	display: inline-block;
         background: url(../images/flipkart_logo_retina-9fddfff2.png) no-repeat;
         background-size: 150px 40px;
         text-indent: -9999px;
-     }
-     .middle-header form{
+}
+.middle-header form{
      	display: inline-block;
-     }
+}
 
-     .middle-header .search{
+.middle-header .search{
         background: url("../images/index.png")
          left no-repeat;
         background-size: 20px 20px;
@@ -59,116 +59,116 @@
      	padding-left: 50px;
      	width: 600px;
      	height:34px;
-     }
-     .search-icon{
+}
+.search-icon{
      	position: absolute;
      	top:25px;
      	left:170px;
-     }
-     .search-button{
+}
+.search-button{
         float: left;
      	border: 1px solid;
      	display: inline-block;
      	border-color: #e0bc27;
      	background-color: #fdd922;
      	padding: 9px 30px 10px 30px;
-     }
-     .bottom-header{
+}
+.bottom-header{
         width: 100%;
         /* background-color: rgba(0,255,255,0.9);*/
         background-color: #0f6cb2;
-     }
-     .bottom-header ul{
+}
+.bottom-header ul{
         width: 900px;
         margin:auto;
         padding: 10px 0 10px 0;
-     }
-     .bottom-header ul li{
+}
+.bottom-header ul li{
         display: inline-block;
-     }
-     .bottom-header ul li a{
+}
+.bottom-header ul li a{
         text-transform: uppercase;
         text-decoration: none;
         font-size: 12px;
         color: white;
         padding-left: 25px;
-     }
-     .offer-zone{
+}
+.offer-zone{
         color: orange;
-     }
-     nav{
+}
+nav{
         width: 100%;
         box-shadow: 0 0 15px rgba(0,0,0,0.3);
         font-family:  Arial,Tahoma,Verdana,sans-serif;
-     }
-     nav ul{
+}
+nav ul{
         width: 880px;
         margin:auto;
-     }
-     nav ul li{
+}
+nav ul li{
         margin: 10px 0 10px 0;
         font-size: 13px;
         display: inline-block;
-     }
-     nav ul li a{
+}
+nav ul li a{
         
         text-decoration: none;
         padding: 0 5px 0 5px ;
         border-right: 1px solid rgba(0,0,0,0.2);
         color: rgba(0,0,0,0.7);
         font-size: 13px;
-     }
-     section{
+}
+section{
         background-color: rgba(0,0,0,0.1);
-     }
-     section .img{
+}
+section .img{
         margin: 20px 0 20px 0;
-     }
-     section .img2{
+}
+section .img2{
         float: left;
         margin: 0 20px 20px 0;
-     }
-    .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+}
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
 }
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+	from {opacity: .4}
+	to {opacity: 1}
 }
-     section .img3{
+section .img3{
 
         /*margin: 0 0 0 20px;*/
         float:left;
-     }
-     section .img4{
+}
+section .img4{
         float: left;
         margin-top: 1px;
-     }
+}
      .clear{
         clear:both;
-     }
+}
      .tv-add{
         background-color: white;
         font-family:  Arial,Tahoma,Verdana,sans-serif;
-     }
-     .tv-add h1,.tv-add .view-all{
+}
+.tv-add h1,.tv-add .view-all{
         display: inline-block
-     }
-     .tv-add h1{
+}
+.tv-add h1{
         font-size: 20px;
         float: left;
-     }
-     .view-all{
+}
+.view-all{
         border-radius: 2px;
         padding: 8px 12px 8px 12px;
         font-size: 14px;
         color:white;
         background-color: #157ed2; 
         float: right;
-     }
-     .tv-add .p{
+}
+.tv-add .p{
         font-size: 15px;
         clear: both;
         color: gray;
-     }
+}
